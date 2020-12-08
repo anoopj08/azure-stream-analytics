@@ -1,0 +1,10 @@
+﻿{
+  "InputAlias": "Input",
+  "Type": "Data Stream",
+  "Format": "CustomClr",
+  "FilePath": "../../inputJSON.json",
+  "SerializationClassName": "ASACustomDeserializerProject.CustomJSONDeserializer",
+  "SerializationDllPath": "ExampleJSONDeserializer.dll",
+  "SerializationDllPathInLocal": "../../bin/Debug/netstandard2.0/ExampleJSONDeserializer.dll",
+  "ScriptType": "InputMock"
+}

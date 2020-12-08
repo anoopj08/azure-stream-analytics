@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleJSONDeserializer", "ExampleJSONDeserializer.csproj", "{1A8C33E7-FD65-4F05-BDC9-9A5DFB402671}"
+EndProject
+Project("{E6C563F2-BDC2-4A24-ACBF-01715157DCBB}") = "ASAExampleJSONDeserializer", "ASAExampleJSONDeserializer\ASAExampleJSONDeserializer.asaproj", "{B2277D48-06DE-4447-996F-19EB9EFA67B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A8C33E7-FD65-4F05-BDC9-9A5DFB402671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A8C33E7-FD65-4F05-BDC9-9A5DFB402671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A8C33E7-FD65-4F05-BDC9-9A5DFB402671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A8C33E7-FD65-4F05-BDC9-9A5DFB402671}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2277D48-06DE-4447-996F-19EB9EFA67B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2277D48-06DE-4447-996F-19EB9EFA67B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2277D48-06DE-4447-996F-19EB9EFA67B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2277D48-06DE-4447-996F-19EB9EFA67B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE6F21DF-E65D-47E8-B00E-FD85FCA5A286}
+	EndGlobalSection
+EndGlobal

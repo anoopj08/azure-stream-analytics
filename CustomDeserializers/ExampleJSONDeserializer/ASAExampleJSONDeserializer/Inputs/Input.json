@@ -1,0 +1,32 @@
+﻿{
+  "Name": "Input",
+  "Type": "Data Stream",
+  "DataSourceType": "Blob Storage",
+  "BlobStorageProperties": {
+    "StorageAccounts": [
+      {
+        "AccountName": "ajquickstartasastorage",
+        "AccountKey": null
+      }
+    ],
+    "Container": "ac7781b3-4883-4886-a961-ba33717186c9-asarpdata",
+    "PathPattern": "",
+    "DateFormat": "yyyy/MM/dd",
+    "TimeFormat": "HH",
+    "SourcePartitionCount": null
+  },
+  "DataSourceCredentialDomain": "6b647c03-7cd3-41f6-989a-6374c59ada1a.StreamAnalystics",
+  "Serialization": {
+    "Type": "CustomClr",
+    "Encoding": null,
+    "FieldDelimiter": null,
+    "Format": null,
+    "SerializationClassName": "ASACustomDeserializerProject.CustomJSONDeserializer",
+    "SerializationDllPath": "ExampleJSONDeserializer.dll",
+    "SerializationDllPathInLocal": "../../bin/Debug/netstandard2.0/ExampleJSONDeserializer.dll"
+  },
+  "PartitionKey": null,
+  "CompressionType": "None",
+  "Sample": null,
+  "ScriptType": "Input"
+}
